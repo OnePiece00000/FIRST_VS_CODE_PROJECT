@@ -6,7 +6,8 @@
             "command": "D:\\worksoft\\TMD-GCC\\TDM-GCC-64\\TDM-GCC-64\\bin\\g++.exe",
             "args": [
                 "-g",
-                "${file}",
+                "${workspaceFolder}/date.cpp",
+                "${workspaceFolder}/main.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
